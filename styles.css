@@ -1,0 +1,45 @@
+.myButton {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 200px;
+    height: 50px;
+
+
+}
+
+.myButton.red {
+    background-color: red;
+
+}
+
+.guiding {
+    display: inline-block;
+
+}
+
+.false {
+    color: red;
+    background-color: white;
+    border: none;
+}
+
+.true {
+   color: green;
+   background-color: white;
+   border: none;
+}
+
+.deleteButton {
+    border: none;
+    border-radius: 3px;
+    background-color: red;
+    color: white;
+}
+
+.centre {
+    position: absolute;
+    top: 50%; right: 50%;
+    transform:translate(50%, -50%);
+}
